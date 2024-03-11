@@ -1,16 +1,21 @@
 .App {
   text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  background-color: yellow;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.con {
+  font-family: "Segoe UI", sans-serif;
+  padding: 2% 20% 5% 20% ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg {
+  padding: 2% 5% 0% 5% ;
+  background-color: #E6DCDB;
+}
+
+h1 {
+  text-align: center;
 }
 
 .App-header {
@@ -28,11 +33,61 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.pie-bg {
+  margin-top:2%; 
+  background-color: whitesmoke;
+}
+#date-picker-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
+}
+
+.inputs {
+  padding-top: 2%;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.full-block {
+  width:100%;
+}
+
+.big-div {
+  height: 2px;
+  background: black;
+  border-color: black;
+  color: black;
+}
+
+.results {
+  padding-top: 2%;
+}
+
+.Book {
+  .book-covers {
+    display: flex;
+    justify-content: flex-end;
   }
-  to {
-    transform: rotate(360deg);
+  .cover {
+    width:100%;
   }
+  p {
+    margin-bottom:2%;
+  }
+  
 }
